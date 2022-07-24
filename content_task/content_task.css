@@ -1,6 +1,6 @@
 .w1200{
     max-width: 1200px;
-    text-align: center;
+    
 }
 
 .m25{
@@ -9,4 +9,8 @@
 
 .w350{
     max-width: 350px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
 }

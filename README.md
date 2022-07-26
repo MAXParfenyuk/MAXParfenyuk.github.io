@@ -2,7 +2,7 @@ https://maxparfenyuk.github.io/blog/blog.html
 
 https://maxparfenyuk.github.io/contact/contact.html
 
-https://maxparfenyuk.github.io/content/content.gtml
+https://maxparfenyuk.github.io/content/content.html
 
 https://maxparfenyuk.github.io/footer/footer.html
 

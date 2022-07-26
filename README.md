@@ -12,3 +12,5 @@ https://maxparfenyuk.github.io/content_task/content_task.html
 
 https://maxparfenyuk.github.io/hero/hero.html
 
+https://maxparfenyuk.github.io/static/static.html
+

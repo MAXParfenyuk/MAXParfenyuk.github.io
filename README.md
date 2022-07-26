@@ -14,3 +14,4 @@ https://maxparfenyuk.github.io/hero/hero.html
 
 https://maxparfenyuk.github.io/static/static.html
 
+https://maxparfenyuk.github.io/lending/lending.html

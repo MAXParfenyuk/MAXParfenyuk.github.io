@@ -1,0 +1,15 @@
+.w1200{
+    max-width: 1200px;
+}
+
+.m25{
+    margin-right: 25px;
+}
+
+.w350{
+    max-width: 350px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}

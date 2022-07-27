@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>HTML Tutorial</title>
+<link rel="stylesheet" href="./normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./tailwind.min.css">
+<link rel="stylesheet" href="./positions.css">
+
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="mx-auto flex flex-col bg-gray-400 p-16 relative ">
+            <h1 class="text-2xl mb-10">Parent</h1>
+            <div class="bg-red-300 h-24 p-8 text-2xl absolute top-1/2 left-1/2 transform">
+                Block1
+                <div class="absolute top-0">
+                    adsa
+                </div>
+            </div>
+            <div class="bg-blue-300 p-8 text-2xl fixed top-o left-12">Block2</div>
+            <div class="bg-green-300 h-24 p-8 text-2xl">Block3</div>
+            <div class="bg-yellow-300 h-24 p-8 text-2xl">Block4</div>
+            <div class="bg-pink-300 h-24 p-8 text-2xl">Block5</div>
+        </div>
+        <div class="bg-pink-300 h-24 p-8 text-2xl ">Block5</div>
+    </div>
+</body>
+</html>

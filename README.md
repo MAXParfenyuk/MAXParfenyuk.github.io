@@ -17,3 +17,6 @@ https://maxparfenyuk.github.io/static/static.html
 https://maxparfenyuk.github.io/lending/lending.html
 
 https://maxparfenyuk.github.io/sterna
+
+https://maxparfenyuk.github.io/sterna/project_page.html
+

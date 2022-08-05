@@ -23,3 +23,5 @@ https://maxparfenyuk.github.io/sterna/project_page.html
 https://maxparfenyuk.github.io/sterna/portfolio.html
 
 https://maxparfenyuk.github.io/sterna/application.html
+
+https://maxparfenyuk.github.io/sterna/about_us.html

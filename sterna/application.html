@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>HTML Tutorial</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./tailwind.min.css"/>
+
+
+    <link rel="preconnect" href="./home_page.css"/>
+</head>
+<body>
+    <div class="shadow">
+        <header class="container flex flex-wrap mx-auto 
+        items-center justify-between py-4 px-3 ">
+            <div class="left">
+                <object class="lg:h-[27px]" data="img/Group 1.svg" height="20"> </object>
+            </div>
+            <div class="right">
+                <object class="lg:hidden" data="img/Menu.svg" width="16" height="12"> </object>
+                <div class="hidden lg:flex flex-wrap items-center">
+                    <div class="header_link text-gray-400">Проект</div>
+                    <div class="header_link ml-5 text-gray-400">Про студію</div>
+                    <div class="header_button flex ml-5 bg-blue-700 h-[34px] items-center px-5 rounded-2xl">
+                        <div class="text-white ">Замовити проєкт</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container mx-auto mt-[32px]">
+        <div class="flex flex-col mx-[24px] lg:mx-auto border-b-2 pb-6">
+            <h1 class="text-4xl lg:text-5xl font-bold">Анкета замовлення</h1>
+            <h2 class="text-[16px] text-gray-500 mt-4">Після відправлення анкети ми опрацюємо заявку. Обумовимо деталі та умови співпраці, складати договір. Якщо ми не можемо виконати роботу, ми напишемо про це також.
+            </h2>
+        </div>
+    
+    <div class="flex flex-col mx-6 mt-6 lg:mx-auto">
+        <h1 class="text-2xl lg:text-5xl font-bold">Контакти</h1>
+        <form>
+            <div class="mb-6 flex flex-col">
+                <div class="lg:flex lg:flex-row lg:justify-between lg:mt-6 items-baseline">
+                    <label for="first_name" class="block mt-4 text-sm lg:text-xl font-medium text-gray-900 dark:text-gray-300">Назва компанії</label>
+                    <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
+                         focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600
+                         dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 lg:w-3/4"
+                         placeholder="Sterna" required>
+                </div>
+                <div class="lg:flex lg:flex-row lg:justify-between lg:mt-6 items-baseline">
+                    <label for="last_name" class="block mt-4 text-sm lg:text-xl font-medium text-gray-900">Прізвище та Ім'я</label>
+                    <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
+                      focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600
+                      dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 lg:w-3/4" 
+                      placeholder="Vovan" required>
+                </div>
+                <div class="lg:flex lg:flex-row lg:justify-between lg:mt-6 items-baseline">
+                    <label for="last_name" class="block mt-4 text-sm lg:text-xl font-medium text-gray-900">Пошта</label>
+                    <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
+                      focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600
+                      dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 lg:w-3/4" 
+                      placeholder="example@gmail.com" required>
+                </div>
+                <div class="lg:flex lg:flex-row lg:justify-between lg:mt-6 items-baseline">
+                    <label for="last_name" class="block mt-4 text-sm lg:text-xl font-medium text-gray-900">Телефон</label>
+                    <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
+                      focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600
+                      dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 lg:w-3/4" 
+                      placeholder="+38(050)333-06-32" required>
+                </div>
+
+
+                <div class="flex flex-col border-b-2 pb-3 lg:flex-row lg:justify-between lg:mt-6 items-baseline">
+                    <label for="website" class="block mt-4 text-sm font-medium text-gray-900 lg:text-xl">Зв'язок з вами через</label>
+                    <label for="search-dropdown" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Your Email</label>
+                    <button id="dropdown-button" data-dropdown-toggle="dropdown" class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 
+                    text-sm text-center text-gray-900 bg-gray-100 border border-gray-300 
+                    rounded-lg hover:bg-gray-200 focus:outline-none focus:ring-gray-300 lg:w-3/4" 
+                    type="button">Оберіть тип зв'язку<svg aria-hidden="true" class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" 
+                    xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 
+                    0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                    clip-rule="evenodd"></path></svg></button>
+                    <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+                        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
+                        <li>
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Пошта</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Телеграм</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Whats App</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Viber</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <h1 class="text-2xl lg:text-5xl font-bold">Завдання</h1>
+        <form>
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:mt-6 items-baseline">
+                <label for="website" class="block mt-4 text-sm lg:text-xl font-medium text-gray-900 dark:text-gray-300">Тип проекту</label>
+                <label for="search-dropdown" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Your Email</label>
+                <button id="dropdown-button" data-dropdown-toggle="dropdown" class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 
+                text-sm text-center text-gray-900 bg-gray-100 border border-gray-300 
+                rounded-lg hover:bg-gray-200 focus:outline-none focus:ring-gray-300 lg:w-3/4" 
+                type="button">Оберіть тип проекту<svg aria-hidden="true" class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" 
+                xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 
+                0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                clip-rule="evenodd"></path></svg></button>
+                <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
+                    <li>
+                        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Пошта</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Телеграм</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Whats App</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Viber</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="flex flex-col mx-[24px] lg:mx-auto mt-6">
+        <h1 class="text-xl font-medium lg:text-2xl font-bold">Файли</h1>
+        <h2 class="text-[14px] text-gray-500 mt-2">Щоб розказати про проект детальніше, відішліть додаткові файли, зображення, текст. Це потрібно для того, щоб зрозуміти початкову задачу та подумати, як її вирішити.</h2>
+        <h2 class="text-[14px] text-gray-500 mt-2">Добре, якщо в тексті ви опишете:
+            <p>— задачі, які повинен виконувати проект;</p>
+            <p>— коротко про діяльність компанії;</p>
+            <p>— особливості вашого бізнесу перед конкурентами.</p></h2>
+    </div>
+
+    <div class="flex items-center mx-6 lg:mx-auto mt-4 border-2 p-4 rounded-lg">
+        <object class="" data="img/File.svg" height="40" width="30"> </object>
+        <h1 class="ml-4">Виберіть файл з пристою</h1>
+    </div>
+    <div class="bg-blue-600 rounded-full py-[8px] mt-6 lg:px-[16px] mx-[24px] lg:mx-auto mb-12">
+        <h1 class="text-center text-white font-medium text-[18px]">Відправити анкету</h1>
+    </div>
+    </div>
+</body>
+</html>

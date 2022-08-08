@@ -26,4 +26,4 @@ https://maxparfenyuk.github.io/sterna/application.html
 
 https://maxparfenyuk.github.io/sterna/about_us.html
 
-треба зелений кубик
+ 
